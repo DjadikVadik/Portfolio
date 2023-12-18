@@ -1,0 +1,108 @@
+@media screen and (max-width: 599px) {
+  .conteiner{
+    width: 100%;
+    font-size: 50%;
+  }
+  .navigation{
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .conteiner{
+    width: 80%;
+    margin: auto;
+    font-size: 75%;
+  }
+  .navigation{
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .conteiner{
+    width: 60%;
+    margin: auto;
+    font-size: 100%;
+  }
+  .navigation{
+    height: 40px;
+  }
+}
+
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conteiner{
+  background-image: url("./beackgraund/1.jpg");
+  height: 200vh;
+  background-size: cover;
+  display: flex;
+  transition: background-image 1s linear;
+}
+
+.contact_info{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  align-items: center; 
+  background-color: rgba(204, 172, 182, 0.7);
+}
+
+.info{
+  width:80%;
+}
+
+.picture{
+  width:80%;
+  margin-top: 10%;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.navigation{
+  background-color: rgba(204, 172, 182, 0.7);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 2% auto;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 130%;
+}
+
+.links{
+ transition: transform 0.1s;
+ cursor: default;
+}
+
+.links:active{
+  transform: scale(1.5);
+}
+
+.content{
+  width: 100%;
+}
+
+.text{
+  width: 80%;
+  margin: auto;
+  padding: 10%;
+  font-size: 120%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0));
+}
+
+span{
+  opacity: 1;
+  transition: opacity 1s;
+ 
+}
+
+
+
