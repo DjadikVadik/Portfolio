@@ -36,7 +36,7 @@ body{
 
 .conteiner{
   background-image: url("./beackgraund/1.jpg");
-  height: 200vh;
+  height: 140rem;
   background-size: cover;
   display: flex;
   transition: background-image 1s linear;
