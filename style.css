@@ -95,7 +95,7 @@ img{
   margin: auto;
   padding: 10%;
   font-size: 120%;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0));
+  background-image: radial-gradient(rgba(255, 255, 255, 1) 35%, rgba(255, 255, 255, 0));
 }
 
 span{
