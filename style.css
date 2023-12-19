@@ -35,8 +35,13 @@ body{
 }
 
 .conteiner{
+<<<<<<< HEAD
   border: 2px solid  rgb(204, 172, 182);
   background-image: url('./beackgraund/1.jpg');
+=======
+  background-image: url("./beackgraund/1.jpg");
+  height: 140rem;
+>>>>>>> d39c38c09b800eadce80525d3f51e8f3663819aa
   background-size: cover;
   height: 120rem;
   display: flex;
@@ -95,6 +100,13 @@ img{
   margin: auto;
   padding: 10%;
   font-size: 120%;
+<<<<<<< HEAD
+=======
+  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 40%, rgba(255, 255, 255, 0));
+}
+
+span{
+>>>>>>> d39c38c09b800eadce80525d3f51e8f3663819aa
   opacity: 1;
   transition: opacity 1s;
 }
