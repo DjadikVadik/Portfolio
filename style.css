@@ -35,11 +35,11 @@ body{
 }
 
 .conteiner{
-  background-image: url("./beackgraund/1.jpg");
-  height: 200vh;
+  border: 2px solid  rgb(204, 172, 182);
+  background-image: url('./beackgraund/1.jpg');
   background-size: cover;
+  height: 120rem;
   display: flex;
-  transition: background-image 1s linear;
 }
 
 .contact_info{
@@ -95,13 +95,8 @@ img{
   margin: auto;
   padding: 10%;
   font-size: 120%;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 35%, rgba(255, 255, 255, 0));
-}
-
-span{
   opacity: 1;
   transition: opacity 1s;
- 
 }
 
 

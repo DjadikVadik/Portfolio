@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="conteiner">
+    <aside class="contact_info">
+      <div class="picture">
+        <img src="./photo/1.jpg" alt="myPhoto">
+      </div>
+      <div class="info">
+        <p>Name:<br> Vadym Larchenko</p>
+        <p>Birthday:<br> March 22, 1991</p>
+        <p>Location:<br> Odessa, Ukraine</p>
+        <p>Email:
+          <br>
+          <a href="mailto:www.220391@gmail.com">www.220391@<wbr>gmail.<wbr>com</a>
+        </p>
+        <p>Phone:
+          <br>
+          <a href="tel:+380957402196">+38 095 74 02 196</a>
+        </p>
+      </div>
+    </aside>
+
+    <div class="content">
+
+      <nav class="navigation">
+        <div class="links start">About me</div>
+        <div class="links">My experience</div>
+        <div class="links">My demo projects</div>
+      </nav>
+
+      <div class="text">
+        <span>
+          <span style="font-weight: bold;">Calculator:</span>
+          <br><br>
+          <span style="text-indent: 5%;"> This is a calculator application. You can evaluate its functionality by following this link. 
+          The application is written using HTML, CSS, and JavaScript. The entire design of the application, including the logic, was crafted 
+          personally without the use of external code. Additionally, a custom JavaScript function has been implemented for performing calculation 
+          operations.</span><br><br>
+          <a href="https://djadikvadik.github.io/Calculator/calculator.html">https://djadikvadik.github.io/Calculator/calculator<wbr>.html</a><br><br><br>
+
+
+          <span style="font-weight: bold;">Market:</span><br><br>
+
+          <span style="text-indent: 5%;">This is a web application developed on ASP.NET Core, providing an HTTP API to manage objects. The project is structured 
+          using the "onion" architecture to facilitate project scalability.<br><br>
+          
+          Project Structure:<br>
+          - Data models representing tasks.<br>
+          - Entity Framework database context, including DbSet<TodoItem> for interacting with the tasks table.<br>
+          - Controllers handling HTTP requests to manage tasks, including methods for retrieving all tasks, getting specific tasks by Id, creating new tasks, updating tasks, and deleting tasks.<br>
+          - Business models representing business tasks.<br>
+          - Business controllers handling the project's business logic.<br><br>
+          
+          Usage:<br>
+          1. After launching the API application, you can interact with the following endpoints:<br>
+             - GET /api/todo - Retrieve a list of all tasks.<br>
+             - GET /api/todo/{id} - Get information about a task based on its Id.<br>
+             - POST /api/todo - Create a new task.<br>
+             - PUT /api/todo/{id} - Update information about a task based on its Id.<br>
+             - DELETE /api/todo/{id} - Delete a task based on its Id.<br><br>
+          
+          2. Entity Framework is used for interacting with the database, automatically creating and updating the database schema based on data models.</span><br><br>
+
+          <a href="https://github.com/DjadikVadik/Market.git">https://github.com/DjadikVadik/Market.git</a><br><br><br>
+
+
+          <span style="font-weight: bold;">Parser:</span><br><br>
+
+          <span style="text-indent: 5%;">This application serves as a website parser and utilizes the "onion" architecture. The project operates with the console 
+          for simplicity in demonstration, but the console can be easily replaced with a desktop or ASP.NET Core application if needed. 
+          For database interaction, the application employs the ADO.NET framework.
+          At the start, the application creates a database using the ADO.NET framework, along with stored procedures for efficient database operations. 
+          The project also includes repositories and models for working with the database.
+          Further, a separate parser library, using repositories, stores all data from the website (including images) in this database. Subsequently, 
+          repositories are used to retrieve everything from the database, which is then demonstrated on the console.<br><br>
+          
+          Structure:<br><br>
+          
+          - Library with a class for creating the database.<br>
+          - Library with models and repositories for database operations.<br>
+          - Library with business models for transforming database models into business models.<br>
+          - Library with business controllers for implementing business logic.<br>
+          - Library for the parser itself.<br>
+          - Console application for working with all these libraries</span><br><br>
+          <a href="https://github.com/DjadikVadik/PARSER.git">https://github.com/DjadikVadik/PARSER.git</a><br><br><br>
+        
+
+          <span style="font-weight: bold;">Portfolio:</span><br><br>
+
+          <span>This is the project you are currently viewing. I hope you liked it!</span>
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
