@@ -79,8 +79,9 @@ img{
 }
 
 .links{
- transition: transform 0.1s;
- cursor: default;
+  color: black;
+  transition: transform 0.1s;
+  cursor: default;
 }
 
 .links:active{
